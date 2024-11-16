@@ -1,0 +1,75 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: "consolas";
+    color: #f40074;
+    font-size: 1.1em;
+    }
+
+
+a:link, a:visited {
+    border-bottom-style:ridge;
+    color: blueviolet;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+table, th, td, tr {
+  border: 1px solid #f40074;
+  color: #f40074;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.centeredfuckingtable{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.title {
+  font-weight: bold;
+  font-family: "consolas";
+  background-color: rgba(141, 141, 141, 0);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 35px;
+
+}
+
+
+th:hover {background-color: rgba(255, 80, 200, 0.062);} 
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.osaka {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 75%;
+  
+}
+
+.text {
+  font-size: 0.65em;
+  font-weight: bold;
+}
